@@ -118,12 +118,14 @@
     font-weight: 700;
     line-height: 72px;
     text-align: left;
+    max-width: 580px;
   }
   .second_title{
       font-size: 48px;
       font-weight: 700;
       line-height: 57.6px;
       text-align: left;
+      padding-bottom: 32px;
   }
   /* main text прописан в body */
   /* .main_text{
@@ -138,4 +140,23 @@
     text-align: right;
     color: #333333;
   }
-  
+  .hero_main_text{
+    max-width: 379px;
+    padding-top: 26px;
+  }
+  .text_hero{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 32px;
+  }
+  .hero,.about{
+    padding-top: 80px;
+  }
+  .about-texts{
+    display:flex;
+    flex-wrap: wrap;
+    
+  }
+  .about-text{
+    max-width: 580px;
+  }
