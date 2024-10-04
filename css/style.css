@@ -47,7 +47,7 @@
     font-weight: normal;
     color: #333333;
     position: fixed;
-    top: 0;
+    top: 35px;
     left: 0;
     width: 100%;
   }
@@ -63,6 +63,13 @@
     align-items: flex-end;
     justify-content: space-between;
   }
+
+  .header__contacts{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
   .header_menu{
     display: flex;
     flex-wrap: wrap;
@@ -70,12 +77,8 @@
     justify-content: space-between;
   }
   .header__line {
-      width: 1180px;
       height: 1px;
-      top: 109px;
-      left: 130px;
-      gap: 0px;
-      opacity: 0px;
+      margin-top: 32px;
 
   }
 
@@ -115,4 +118,5 @@
   }
   .header__contact{
     text-align: right;
+    margin-left: 45px;
   }
