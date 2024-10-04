@@ -46,7 +46,7 @@
     /* line-height: 19.2px; */
     font-weight: normal;
     color: #333333;
-    position: fixed;
+    /* position: fixed; */
     top: 35px;
     left: 0;
     width: 100%;
@@ -101,13 +101,6 @@
     color: #333333;
     text-decoration: none;
   }
-
-  .second_text{
-    font-size: 14px;
-    line-height: 16.8px;
-    text-align: right;
-    color: #333333;
-  }
   
   .header__contact-link{
     font-size: 20px;
@@ -120,3 +113,29 @@
     text-align: right;
     margin-left: 45px;
   }
+  .main_title{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72px;
+    text-align: left;
+  }
+  .second_title{
+      font-size: 48px;
+      font-weight: 700;
+      line-height: 57.6px;
+      text-align: left;
+  }
+  /* main text прописан в body */
+  /* .main_text{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 19.2px;
+    text-align: left;    
+  } */
+  .second_text{
+    font-size: 14px;
+    line-height: 16.8px;
+    text-align: right;
+    color: #333333;
+  }
+  
