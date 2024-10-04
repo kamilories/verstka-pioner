@@ -208,6 +208,7 @@ header {
   /* Три карточки в ряду */
   gap: 20px;
   /* Промежуток между карточками */
+  padding-bottom: 80px;
 }
 
 .product__card {
@@ -260,5 +261,39 @@ header {
   background-color: #f0f0f0; /* Эффект при наведении */
 }
 
+.map-img{
+  width: 100%;
+  padding-bottom: 80px;
+}
 
+.news__container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Три карточки в ряду */
+  gap: 20px;
+  /* Промежуток между карточками */
+  padding-bottom: 80px;
+}
 
+.news__card{
+  background: #F5F5F5;
+  max-width: 100%;
+  height: 435px;
+  /* Внутренние отступы */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.news__link{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-decoration: none; /* Убирает подчеркивание */
+  color: inherit; /* Наследует цвет текста */
+  flex-grow: 1; /* Заполняет оставшееся пространство */
+  max-width: 100%;
+}
+.news_card-img{
+  max-width: 100%;
+}
