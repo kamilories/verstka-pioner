@@ -1,0 +1,101 @@
+/* source-sans-3-regular - cyrillic_latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/source-sans-3-v15-cyrillic_latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* source-sans-3-600 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/source-sans-3-v15-cyrillic_latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* source-sans-3-700 - cyrillic_latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/source-sans-3-v15-cyrillic_latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  html{
+    box-sizing: border-box;
+  }
+  *,*::before,*::after{
+    box-sizing: inherit;
+  }
+  
+  body{
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-size: 16px;
+    /* line-height: 19.2px; */
+    font-weight: normal;
+    color: #333333;
+    
+  }
+  header{
+    font-family: 'Source Sans 3';
+    font-style: normal;
+    font-size: 16px;
+    /* line-height: 19.2px; */
+    font-weight: normal;
+    color: #333333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  /*контейнер для рамки внутри сайта*/
+  .wrapper{
+    max-width: 1180px;
+    margin: 0 auto;
+  }
+
+  .header__first-layer{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .header_menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+  .header__line {
+      width: 1180px;
+      height: 1px;
+      top: 109px;
+      left: 130px;
+      gap: 0px;
+      opacity: 0px;
+
+  }
+
+  .header__list{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .header__item{
+    margin-right: 44px;
+  }
+  .header__item:last-child{
+    margin-right: 0;
+    margin-left: auto;
+  }
+  
+  .header__link{
+    font-size: 16px;
+    line-height: 19.2px;
+    text-align: left;
+    color: #333333;
+    text-decoration: none;
+  }
+  
