@@ -98,4 +98,21 @@
     color: #333333;
     text-decoration: none;
   }
+
+  .second_text{
+    font-size: 14px;
+    line-height: 16.8px;
+    text-align: right;
+    color: #333333;
+  }
   
+  .header__contact-link{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28.48px;
+    text-align: right;
+    color: #607CE6;
+  }
+  .header__contact{
+    text-align: right;
+  }
