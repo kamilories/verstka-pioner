@@ -152,11 +152,22 @@
   .hero,.about{
     padding-top: 80px;
   }
-  .about-texts{
-    display:flex;
-    flex-wrap: wrap;
-    
+  .about_grid {
+    display: grid;
+    gap: 20px; /* Расстояние между блоками */
+    grid-template-columns: repeat(2, 1fr); /* Два столбца одинаковой ширины */
+    padding-bottom: 32px;
   }
-  .about-text{
+  
+  .about_text{
+    font-size: 16px;
+    line-height: 22.4px;
+    text-align: left;
+    font-weight: 400;
+    max-width: 580px;
+  }
+
+ 
+  .about_image{
     max-width: 580px;
   }
